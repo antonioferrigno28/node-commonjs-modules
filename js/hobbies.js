@@ -1,6 +1,6 @@
-function createHobbiesObject(hobbyOne, hobbyTwo, hobbyThree) {
+function createHobbiesObject(...hobby) {
   return {
-    hobbies: [hobbyOne, hobbyTwo, hobbyThree],
+    hobbies: [...hobby],
   };
 }
 
