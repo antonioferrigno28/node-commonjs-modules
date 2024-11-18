@@ -8,4 +8,11 @@
 const createHobbiesObject = require("./js/hobbies.js");
 const fullNameObject = require("./js/names.js");
 
-function fullObject() {}
+function fullObject() {
+  const name = fullNameObject("Cristian", "Dolo");
+  const hobbies = createHobbiesObject("ao", "ab", "abc");
+
+  return { ...name, ...hobbies };
+}
+
+console.log(fullObject());
