@@ -4,4 +4,4 @@ function createHobbiesObject(hobbyOne, hobbyTwo, hobbyThree) {
   };
 }
 
-module.exports = { createHobbiesObject };
+module.exports = createHobbiesObject;

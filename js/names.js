@@ -3,7 +3,8 @@ function fullNameObject(firstName, lastName) {
     firstName: firstName,
     lastName: lastName,
   };
-  console.log(person);
+
+  return person;
 }
 
-module.exports = { fullNameObject };
+module.exports = fullNameObject;
